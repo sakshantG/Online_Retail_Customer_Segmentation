@@ -1,6 +1,5 @@
-# Online_Retail_Customer_Segmentation
-
 # **CUSTOMER-SEGMENTATION-UNSUPERVISED-ML- Customer-Segmentation**
+
 
 Problem Description In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
@@ -44,9 +43,9 @@ What is the potential impact of project? Customer segmentation can have a great 
 **HOW you approached the problem statement?**
 - This study started with importing dataset, analyzing dataset after this I have done preprocessing, checked for the null values as our dataset contains many null values in Customer id feature and we have to segment the customers, without customer id we are unable to segment customers therefore removed all the rows without Customer id.
 
-After that did some exploratory data analysis (EDA) and came to know about top customers, Worst customers, periodical purchasing stats, most revenue generated weekdays, purchase stats of country, top and lease purchasing country, top sold product, most revenue generated product, Customer stats, etc.
+After that did some exploratory data analysis (EDA) and came to know about top customers, Worst customers, periodical purchasing stats, most revenue generated weekdays, purchase stats of country, top and least purchasing country, top sold product, most revenue generated product, Customer stats, etc.
 
-After that did some feature engineering to build the RFM model (recency, frequency and monetary value) . I have extracted and analyzed RFM scores then created customer segments in 3 categories: bronze, silver and gold.
+After that did some feature engineering to build the RFM model (recency, frequency and monetary value).
 
 Then did data preprocessing for clustering with the help of log transformation, reduced Skewness of data, then scaled data. After scaling extracted Silhouette Score Based on the inertia and silhouette score, I got to know that the optimal number of clusters is 2.
 
