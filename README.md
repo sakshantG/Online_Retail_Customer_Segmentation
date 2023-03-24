@@ -10,7 +10,7 @@ Problem Description In this project, your task is to identify major customer seg
 
 **InvoiceNo:** Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
 
-*StockCode:** Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+**StockCode:** Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
 
 **Description:** Product (item) name. Nominal.
 
@@ -37,13 +37,12 @@ Needs-based segmentation is based on differentiated, validated drivers (needs) t
 Value-based segmentation differentiates customers by their economic value, grouping customers with the same value level into individual segments that can be distinctly targeted.
 
 **What is the business use case of project?**
-
-Customer segmentation has a lot of potential benefits. It helps a company to develop an effective strategy for targeting its customers. This has a direct impact on the entire product development cycle, the budget management practices, and the plan for delivering targeted promotional content to customers.
+- Customer segmentation has a lot of potential benefits. It helps a company to develop an effective strategy for targeting its customers. This has a direct impact on the entire product development cycle, the budget management practices, and the plan for delivering targeted promotional content to customers.
 
 What is the potential impact of project? Customer segmentation can have a great effect on customer management in that, by dividing customers into different groups that share similar needs, the company can market to each group differently and focus on what each kind of customer needs at any given moment.
 
 **HOW you approached the problem statement?**
-This study started with importing dataset, analyzing dataset after this I have done preprocessing, checked for the null values as our dataset contains many null values in Customer id feature and we have to segment the customers, without customer id we are unable to segment customers therefore removed all the rows without Customer id.
+- This study started with importing dataset, analyzing dataset after this I have done preprocessing, checked for the null values as our dataset contains many null values in Customer id feature and we have to segment the customers, without customer id we are unable to segment customers therefore removed all the rows without Customer id.
 
 After that did some exploratory data analysis (EDA) and came to know about top customers, Worst customers, periodical purchasing stats, most revenue generated weekdays, purchase stats of country, top and lease purchasing country, top sold product, most revenue generated product, Customer stats, etc.
 
